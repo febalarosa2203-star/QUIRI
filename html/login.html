@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QUIRI - Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <h1>QUIRI</h1>
+
+        <h2>Login da Nutricionista</h2>
+
+        <!-- Formulário de login -->
+        <form id="formLogin">
+
+            <!-- Campo de e-mail -->
+            <label for="email">E-mail</label>
+            <input
+                type="email"
+                id="email"
+                required
+            >
+
+            <!-- Campo de senha -->
+            <label for="senha">Senha</label>
+            <input
+                type="password"
+                id="senha"
+                required
+            >
+
+            <!-- Botão de login -->
+            <button type="submit">
+                Entrar
+            </button>
+
+        </form>
+
+        <!-- Mensagem de retorno -->
+        <p id="mensagemLogin"></p>
+
+        <!-- Link para cadastro -->
+        <p>
+            Ainda não possui cadastro?
+            <a href="cadastro-tipo.html">Cadastre-se</a>
+        </p>
+
+    </main>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>

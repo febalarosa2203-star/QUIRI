@@ -1,0 +1,211 @@
+/* ========================================
+   LOGIN DA NUTRICIONISTA
+   ======================================== */
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Área principal do login */
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Formulário */
+#formLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Textos dos campos */
+#formLogin label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Campos */
+#formLogin input {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Botão */
+#formLogin button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Link de cadastro */
+.login-container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ========================================
+   CADASTRO DA NUTRICIONISTA
+   ======================================== */
+
+/* Área principal do cadastro */
+.cadastro-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título QUIRI */
+.cadastro-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Título do cadastro */
+.cadastro-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Formulário de cadastro */
+#formCadastroNutricionista {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nome dos campos */
+#formCadastroNutricionista label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Campos de preenchimento */
+#formCadastroNutricionista input {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Botão de cadastro */
+#formCadastroNutricionista button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Mensagem do cadastro */
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ========================================
+   TELA INICIAL - INDEX
+   ======================================== */
+
+.inicio-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.inicio-container h1 {
+    margin-bottom: 10px;
+}
+
+.inicio-container h2 {
+    margin-bottom: 15px;
+}
+
+.inicio-container p {
+    margin-bottom: 25px;
+}
+
+.inicio-container button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* ========================================
+   ESCOLHA DO TIPO DE CADASTRO
+   ======================================== */
+
+.cadastro-tipo-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cadastro-tipo-container h1 {
+    margin-bottom: 10px;
+}
+
+.cadastro-tipo-container h2 {
+    margin-bottom: 30px;
+}
+
+.cadastro-tipo-container button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* ========================================
+   CONFIGURAÇÃO GERAL DAS TELAS
+   ======================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
